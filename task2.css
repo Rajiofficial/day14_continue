@@ -1,0 +1,31 @@
+.width1{
+    width: 100px;
+}
+.space{
+    
+    gap: 5px;
+}
+.bg-color{
+    background-image: url("./icons/bgimage.jpg"); 
+    color:green;
+}
+::selection{
+    background-color:purple;
+    color: brown;
+}
+body::-webkit-scrollbar{
+    width: 0.6em;
+}
+body::-webkit-scrollbar-track{
+    box-shadow: inset blue;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: orangered;
+    outline: 2px  solid purple;
+}
+.color{
+    background-color:#65676A;
+}
+.bgcolor{
+    background-color: #9D9292;
+}
